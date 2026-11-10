@@ -2,13 +2,13 @@ import 'dart:ui' show PointerDeviceKind;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:nt/main.dart';
-import 'package:nt/models/app_state.dart';
-import 'package:nt/models/movie.dart';
-import 'package:nt/screens/login_screen.dart';
-import 'package:nt/screens/movies_screen.dart';
-import 'package:nt/screens/series_screen.dart';
-import 'package:nt/widgets/featured_carousel.dart';
+import 'package:netflix/main.dart';
+import 'package:netflix/models/app_state.dart';
+import 'package:netflix/models/movie.dart';
+import 'package:netflix/screens/login_screen.dart';
+import 'package:netflix/screens/movies_screen.dart';
+import 'package:netflix/screens/series_screen.dart';
+import 'package:netflix/widgets/featured_carousel.dart';
 import 'package:video_player_platform_interface/video_player_platform_interface.dart';
 
 import 'support/fake_video_player.dart';
